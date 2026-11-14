@@ -11,10 +11,10 @@
             <div class="flex gap-2 sm:gap-3 items-center w-full sm:w-auto">
                 <button class="button __primary gap-2 rounded-full flex-1 sm:flex-none min-h-11">
                     <Icon name="hugeicons:plus-sign" class="size-5 text-inverse" />
-                    <span class="text-inverse text-sm font-semibold">Add Project</span>
+                    <span class="text-inverse text-xs sm:text-sm font-semibold whitespace-nowrap">Add Project</span>
                 </button>
                 <button class="button rounded-full flex-1 sm:flex-none min-h-11">
-                    <span class="text-sm text-primary-700 font-semibold">Import Data</span>
+                    <span class="text-xs sm:text-sm text-primary-700 font-semibold whitespace-nowrap">Import Data</span>
                 </button>
             </div>
         </div>
