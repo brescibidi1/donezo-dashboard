@@ -3,7 +3,7 @@ const patternId = `progress-hatch-${useId()}`;
 </script>
 
 <template>
-  <div class="min-w-0 md:col-span-4 card rounded-shell shadow-card bg-surface p-4">
+  <div class="motion-card min-w-0 md:col-span-4 card rounded-shell shadow-card bg-surface p-4">
     <h3 class="text-sm font-bold">Project Progress</h3>
     <div class="flex flex-col w-full mt-3">
       <svg class="progress-gauge" viewBox="0 0 272 156" role="img" aria-label="Project progress: 41% of projects ended. Completed, in progress and pending.">

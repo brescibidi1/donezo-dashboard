@@ -1,5 +1,5 @@
 <template>
-    <div class="chart-card min-w-0 flex flex-col md:col-span-5 bg-surface rounded-shell shadow-card p-4">
+    <div class="motion-card chart-card min-w-0 flex flex-col md:col-span-5 bg-surface rounded-shell shadow-card p-4">
         <div class="flex flex-wrap gap-2 items-center justify-between">
             <h3 class="text-sm font-bold">Team Collaboration</h3>
             <NuxtLink to="#" class="button flex items-center gap-1 rounded-full py-1.5 min-h-0 px-2">
@@ -9,7 +9,7 @@
         </div>
         <div class="h-full w-full flex mt-3">
             <ul class="flex flex-col grow gap-1.5">
-                <li class="flex items-baseline-last justify-between gap-2">
+                <li data-motion-row class="flex items-baseline-last justify-between gap-2">
                     <div class="flex gap-2 items-center">
                         <div class="w-9 aspect-square image-cover rounded-full bg-primary-200">
                             <img src="/images/teamate_1.png" />
@@ -21,7 +21,7 @@
                     </div>
                     <div class="badge __success">Completed</div>
                 </li>
-                <li class="flex items-baseline-last justify-between gap-2">
+                <li data-motion-row class="flex items-baseline-last justify-between gap-2">
                     <div class="flex gap-2 items-center">
                         <div class="w-9 aspect-square image-cover rounded-full bg-primary-200">
                             <img src="/images/teamate_2.png" />
@@ -33,7 +33,7 @@
                     </div>
                     <div class="badge __warning">In Progress</div>
                 </li>
-                <li class="flex items-baseline-last justify-between gap-2">
+                <li data-motion-row class="flex items-baseline-last justify-between gap-2">
                     <div class="flex gap-2 items-center">
                         <div class="w-9 aspect-square image-cover rounded-full bg-primary-200">
                             <img src="/images/teamate_3.png" />
@@ -45,7 +45,7 @@
                     </div>
                     <div class="badge __danger">Pending</div>
                 </li>
-                <li class="flex items-baseline-last justify-between gap-2">
+                <li data-motion-row class="flex items-baseline-last justify-between gap-2">
                     <div class="flex gap-2 items-center">
                         <div class="w-9 aspect-square image-cover rounded-full bg-primary-200">
                             <img src="/images/teamate_4.png" />

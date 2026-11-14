@@ -1,5 +1,5 @@
 <template>
-    <div class="min-w-0 bg-primary-900 rounded-shell shadow-card p-4">
+    <div class="motion-card min-w-0 bg-primary-900 rounded-shell shadow-card p-4">
         <h3 class="text-sm text-inverse">Time Tracker</h3>
         <div class="flex items-center justify-center gap-4 flex-col mt-8">
             <div class="flex items-center justify-center gap-2">

@@ -11,7 +11,7 @@ const days = [
 </script>
 
 <template>
-  <div class="chart-card min-w-0 flex flex-col md:col-span-6 bg-surface rounded-shell shadow-card p-4">
+  <div class="motion-card chart-card min-w-0 flex flex-col md:col-span-6 bg-surface rounded-shell shadow-card p-4">
     <h3 class="text-sm font-bold">Project Analytics</h3>
     <ul class="analytics-chart flex w-full justify-between gap-1.5 mt-3" aria-label="Weekly project analytics">
       <li v-for="day in days" :key="day.name" class="analytics-day group" tabindex="0" :aria-label="`${day.name}: ${day.value}%`">
@@ -48,7 +48,7 @@ const days = [
   min-height: 110px;
   flex: 1;
 }
-.analytics-bar { position: relative; width: 100%; border-radius: 500px; }
+.analytics-bar { position: relative; width: 100%; border-radius: 500px; transform-origin: center bottom; }
 .hashed {
   background: repeating-linear-gradient(130deg, var(--color-muted) 0 1px, transparent 1px 4px);
 }
